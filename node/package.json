@@ -15,6 +15,9 @@
     "url": "https://github.com/workstudiohq"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.6.1",
