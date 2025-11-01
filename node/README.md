@@ -209,14 +209,6 @@ You can extend them with:
 
   Runs `src/index.ts` with `ts-node` and `nodemon`.
 
-Before publishing:
-
-* ✅ Ensure `dist/index.js` correctly re-exports all providers
-* ✅ Add unit tests for each provider
-* ✅ Include `.d.ts` declaration files (if not auto-generated)
-
----
-
 ## 🤝 Contributing
 
 1. Fork the repo and create a feature branch.
