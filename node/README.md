@@ -1,4 +1,4 @@
-# 🧩 @workstudio/integrations
+# Integrations for Workstudio
 
 Integration utilities and provider wrappers used by **Workstudio** to connect with common third-party services — including **Firebase**, **Stripe**, **n8n**, and **Supabase**.
 
@@ -20,10 +20,10 @@ This package provides lightweight **TypeScript classes** that wrap common operat
 
 | Provider             | Status         | Features                                         |
 | -------------------- | -------------- | ------------------------------------------------ |
-| **FirebaseProvider** | ✅ Implemented  | Firestore, Auth, Storage, Realtime DB, Messaging |
-| **StripeProvider**   | ✅ Implemented  | Payment link generation                          |
-| **n8nProvider**      | 🧩 Placeholder | Constructor only                                 |
-| **SupabaseProvider** | 🧩 Placeholder | None yet                                         |
+| **FirebaseProvider** | Implemented  | Firestore, Auth, Storage, Realtime DB, Messaging |
+| **StripeProvider**   | Implemented  | Payment link generation                          |
+| **n8nProvider**      | Placeholder | Constructor only                                 |
+| **SupabaseProvider** | Placeholder | None yet                                         |
 
 > Prefer using the implemented providers (**Firebase**, **Stripe**) for production use.
 > The others are ready for community contribution or future development.
