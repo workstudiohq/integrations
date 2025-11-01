@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "Integration Services for WorkStudio Platform",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "start": "node dist/index.js",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "WorkStudio",
+    "email": "team@workstudio.space",
+    "url": "https://github.com/workstudiohq"
+  },
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.6.1",
@@ -38,5 +42,23 @@
       "bcrypt",
       "protobufjs"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workstudiohq/integrations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/workstudiohq/integrations/issues"
+  },
+  "homepage": "https://workstudio.space/doc/integrations",
+  "keywords": [
+    "workstudio",
+    "integrations",
+    "services",
+    "api",
+    "platform",
+    "apis",
+    "no-code",
+    "low-code"
+  ]
 }
